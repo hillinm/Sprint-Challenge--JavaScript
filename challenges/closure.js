@@ -16,9 +16,16 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+// Explanation: Because it's a function inside of a function and internal is declared at the local level.
 
 
 /* Task 2: Counter */
 
 /* Create a function called `sumation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+function sumation (parameter) {
+  for (i = parameter; i > 0; i--) {
+    return parameter += i;
+  }
+
+}
