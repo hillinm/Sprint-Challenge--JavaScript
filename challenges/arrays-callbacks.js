@@ -107,3 +107,7 @@ Stretch: If you haven't already, convert your array method callbacks into arrow 
 
 */
 
+consume = (a, b, cb) => cb(a, b); 
+add = (a, b) => a+b;
+multiply = (a, b) => a*b;
+greeting = (firstname, lastname) => `Hello ${firstname} ${lastname}, nice to meet you!` 
