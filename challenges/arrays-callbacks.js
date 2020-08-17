@@ -36,7 +36,8 @@ The zoos need a list of all their animal's names (animal_name only) converted to
 
 const lowCaseAnimalNames = [];
 const names= zooAnimals.map(name => {return name.animal_name});
-lowCaseAnimalNames.push(names);
+const name = names.map(n => n.toLowerCase());
+lowCaseAnimalNames.push(name);
 
 console.log(lowCaseAnimalNames);
 
