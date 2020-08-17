@@ -27,9 +27,7 @@ function sumation (parameter) {
   let sum = 0;
   for (i = parameter; i > 0; i--) {
     sum += i;
-    console.log(sum);
   }
-  console.log(sum);
 
   return sum
 }
